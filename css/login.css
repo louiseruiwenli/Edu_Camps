@@ -1,0 +1,61 @@
+@charset "UTF-8";
+/* CSS Document */
+body{
+	font-family: 'Crimson Text', serif;
+}
+
+#block{
+  position:relative;
+  top: 200px;
+}
+
+.panel-body{
+  border-color: 1px solid #FF7F10;
+  border-radius: 5px;
+}
+
+.btn-orange{
+	background-color: #FF7F10;
+	border:#FF7F10;
+	text-decoration: none;
+	display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: normal;
+	color: white;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+        touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+       -ms-user-select: none;
+           user-select: none;
+    background-image: none;
+    border-radius: 4px;
+}
+
+.btn-orange:link{
+	text-decoration: none;
+}
+
+.btn-orange:hover{
+	background-color: #FF9731;
+	color: white;
+}
+
+.btn-orange:active:hover{
+	background-color: #FF7F10;
+	color: white;
+}
+
+
+
+.btn-orange:visited{
+	background-color: #FF7F10;
+	color: white;
+}

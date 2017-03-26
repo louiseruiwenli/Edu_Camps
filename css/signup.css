@@ -1,0 +1,119 @@
+@charset "UTF-8";
+
+body{
+	font-family: 'Crimson Text', serif;
+}
+
+.panel{
+  height: 700px;
+}
+
+.form-container{
+  position: relative;
+  top: 30%;
+  left: 35%;
+  width: 500px;
+  border: 1px solid #FF7F10;
+  border-radius: 10px;
+ 
+}
+
+form p{
+  font-size:1.3em;
+}
+
+
+
+.btn-orange{
+	background-color: #FF7F10;
+	border:#FF7F10;
+	text-decoration: none;
+	display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: normal;
+	color: white;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+        touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+       -ms-user-select: none;
+           user-select: none;
+    background-image: none;
+    border-radius: 4px;
+}
+
+.btn-orange:link{
+	text-decoration: none;
+}
+
+.btn-orange:hover{
+	background-color: #FF9731;
+	color: white;
+}
+
+.btn-orange:active:hover{
+	background-color: #FF7F10;
+	color: white;
+}
+
+.btn-orange:visited{
+	background-color: #FF7F10;
+	color: white;
+}
+
+#block{
+  position:relative;
+  top: 200px;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #FFB77C;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+  -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+       -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+          transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+.form-control:focus {
+  border-color: #FFB369;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(199,89,0,1.00);
+          box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(199,89,0,1.00);
+}
+.form-control:-moz-placeholder {
+  color: #FF9840;
+  opacity: 1;
+}
+.form-control:-ms-input-placeholder {
+  color: #FF9840;
+}
+.form-control::-webkit-input-placeholder {
+  color: #FF9840;
+}
+.form-control::-ms-expand {
+  background-color: transparent;
+  border: 0;
+}
+.form-control[disabled],
+.form-control[readonly],
+fieldset[disabled] .form-control {
+  background-color: #FF9840;
+  opacity: 1;
+}

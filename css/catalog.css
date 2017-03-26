@@ -1,0 +1,95 @@
+@charset "UTF-8";
+/* CSS Document */
+body{
+	font-family: 'Crimson Text', serif;
+}
+
+.introduction{
+	font-size: 1.5em;
+	width: 80%;
+	margin: auto;
+	margin-top: 50px;
+	margin-bottom:50px;
+	line-height: 30px;
+}
+
+.note{
+	color: #FF7F10;
+}
+
+nav li{
+	font-size: 1.3em;
+}
+
+p{
+	font-size: 1.2em;
+}
+
+nav img{
+	position: relative;
+	height:100%;
+	width:120px;
+}
+
+#company-name{
+	font-size: 1.3em;
+}
+
+.price{
+	font-size: 1.5em;
+}
+
+.btn-orange{
+	background-color: #FF7F10;
+	border:#FF7F10;
+	text-decoration: none;
+	display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: normal;
+	color: white;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+        touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+       -ms-user-select: none;
+           user-select: none;
+    background-image: none;
+    border-radius: 4px;
+}
+
+.btn-orange:link{
+	text-decoration: none;
+}
+
+.btn-orange:hover{
+	background-color: #FF9731;
+	color: white;
+}
+
+.btn-orange:active:hover{
+	background-color: #FF7F10;
+	color: white;
+}
+
+
+
+.btn-orange:visited{
+	background-color: #FF7F10;
+	color: white;
+}
+
+li{
+	list-style-type: none;
+}
+
+#innercart{
+	height: 200px;
+	overflow-y: scroll; 
+}
